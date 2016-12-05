@@ -30,6 +30,10 @@ gem "fog", "1.38.0"
 
 group :development, :test do
   gem "byebug", platform: :mri
+  gem "factory_girl_rails"
+  gem "rspec-rails", "~> 3.0"
+  gem "simplecov", require: false
+  gem "shoulda-matchers"
 end
 
 group :development do
