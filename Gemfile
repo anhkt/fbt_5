@@ -35,6 +35,7 @@ group :development, :test do
   gem "simplecov", require: false
   gem "shoulda-matchers"
   gem "rails-controller-testing"
+  gem "rspec-activemodel-mocks"
 end
 
 group :development do
