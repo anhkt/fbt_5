@@ -33,3 +33,5 @@ config/settings/*.local.yml
 config/environments/*.local.yml
 .byebug_history
 public/javascripts
+bin/*
+public/javascripts/en.js
