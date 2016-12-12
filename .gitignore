@@ -35,3 +35,4 @@ config/environments/*.local.yml
 public/javascripts
 bin/*
 public/javascripts/en.js
+/spec/uploads
