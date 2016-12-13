@@ -17,5 +17,10 @@ FactoryGirl.define do
     trait :small_picture do
       picture File.open Rails.root.join "spec/uploads/small_picture.jpg"
     end
+
+    before :create do |tour|
+      tour.tour_dates.build(FactoryGirl.attributes_for :tour_date)
+      tour.tour_places.build(FactoryGirl.attributes_for :tour_place)
+    end
   end
 end
